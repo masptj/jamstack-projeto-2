@@ -10,5 +10,12 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-graphcms',
+      options: {
+      endpoint: 'https://api-sa-east-1.hygraph.com/v2/cld3nphrd0pn601ue0fmpep5o/master'
+      }
+      },
+      'gatsby-plugin-image',
   ],
 }
